@@ -6,7 +6,9 @@
 
 (为的是实现小瓶子的计数，一共分成了3个py文件，BottleDetectUI.py是带UI界面的，另外两个会把mask等都显示出来，方便查看，当然也可以根据需要，调整为只显示result)
 
-在项目正式完工前将不会公开代码，如有需要请联系我。
+BottleDetect_MobileSAM.py是利用预训练模型做的，权重等文件下载：https://github.com/ChaoningZhang/MobileSAM，由于没有微调(对于简单情况够用)，针对粘连情况的效果不好。
+
+基于分水岭算法的代码在项目正式完工前将不会公开，如有需要请联系本人。
 
 用到的方法：
 
@@ -34,3 +36,7 @@
     使用 `cv2.addWeighted` 将原图和标记后的图像进行叠加。
 12. 图像缩放 (Image Resizing)：
     使用 `cv2.resize` 调整最终结果图像的大小。
+
+## **Reference**
+
+https://cloud.tencent.com/developer/article/1900798
