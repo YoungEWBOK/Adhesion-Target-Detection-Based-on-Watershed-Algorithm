@@ -1,4 +1,4 @@
-# Adhesion-Target-Detection-Based-on-Watershed-Algorithm(基于分水岭算法的粘连目标检测)
+# Adhesion Target Detection Based on Watershed Algorithm(基于分水岭算法的粘连目标检测)
 
 **主要使用了分水岭算法(Watershed Algorithm)进行图像分割。**
 
@@ -8,7 +8,7 @@
 
 BottleDetect_MobileSAM.py是利用预训练模型做的，权重等文件下载：https://github.com/ChaoningZhang/MobileSAM ，由于没有微调(对于简单情况够用)，针对粘连情况的效果不好。
 
-**基于分水岭算法的代码在项目正式完工前将不会公开，如有需要请联系本人(比如你也是为代码捉急的大学生···)。**
+**基于分水岭算法的代码在项目正式完工前将不会公开，如有需要请联系本人(比如你也是为代码捉急的大学生···)**
 
 用到的方法：
 
