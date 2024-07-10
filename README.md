@@ -6,6 +6,10 @@
 
 (为的是实现小瓶子的计数，一共分成了3个py文件，BottleDetectUI.py是带UI界面的，另外两个会把mask等都显示出来，方便查看，当然也可以根据需要，调整为只显示result)
 
+在项目正式完工前将不会公开代码，如有需要请联系我。
+
+用到的方法：
+
 1. 边缘保留滤波 (Edge Preserving Filtering)：
    使用 `cv2.pyrMeanShiftFiltering` 进行去噪，同时保留边缘信息。
 2. 二值化 (Binarization)：
