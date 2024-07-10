@@ -1,5 +1,4 @@
-# Adhesion-Target-Detection-Based-on-Watershed-Algorithm
-Adhesion Target Detection Based on Watershed Algorithm(基于分水岭算法的粘连目标检测)
+# Adhesion-Target-Detection-Based-on-Watershed-Algorithm(基于分水岭算法的粘连目标检测)
 
 主要使用了分水岭算法(Watershed Algorithm)进行图像分割。
 
