@@ -2,6 +2,8 @@
 
 **主要使用了分水岭算法(Watershed Algorithm)进行图像分割。**
 
+**Demo：https://huggingface.co/spaces/YoungEWBOK/Screw-Cap-Tube ，用的gradio部署的，需要科学上网。**
+
 ![UI界面展示](img/UI.png)
 
 (为的是实现小瓶子的计数，一共分成了3个py文件，BottleDetectUI.py是带UI界面的，另外两个会把mask等都显示出来，方便查看，当然也可以根据需要，调整为只显示result)
