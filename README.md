@@ -2,7 +2,7 @@
 
 **主要使用了分水岭算法(Watershed Algorithm)进行图像分割。**
 
-**Demo：https://huggingface.co/spaces/YoungEWBOK/Screw-Cap-Tube ，用的gradio部署的，需要科学上网。**
+**Demo：https://huggingface.co/spaces/YoungEWBOK/Screw-Cap-Tube ，使用gradio部署，需要科学上网。**
 
 ![UI界面展示](img/UI.png)
 
